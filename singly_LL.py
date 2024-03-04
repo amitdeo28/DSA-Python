@@ -16,7 +16,7 @@ class SLL:
         if not self.is_empty():
             temp = self.start
             while temp.next is not None:
-                temp = temp.next
+                temp = temp.next   #djdjdjdj
             temp.next = n
         else:
             self.start = n
