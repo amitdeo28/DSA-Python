@@ -7,7 +7,7 @@ class SLL:
     def __init__(self, start=None):
         self.start = start
     def is_empty(self):
-        return self.start == None
+        return self.start == None     
     def insert_at_start(self, data):
         n = Node(data, self.start)
         self.start - n 
